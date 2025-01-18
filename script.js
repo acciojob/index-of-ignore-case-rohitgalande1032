@@ -1,5 +1,12 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
+  let char = substr[0]
+  for(let i=0; i<str.length; i++) {
+    if(str[i].toLowerCase() === char || str[i].toUpperCase() ===char){
+      return i;
+    } 
+  }
+  return -1;
 }
 
 // Please do not change the code below
